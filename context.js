@@ -19,6 +19,19 @@
 
 //Code Here
 
+let user = {
+  username: "EarlDibbles",
+  email: "myemail@email.com",
+}
+
+
+
+
+
+
+
+
+
 ////////// PROBLEM 2 //////////
 
 /*
@@ -30,7 +43,7 @@ function Animal(name, species, food) {
   this.species = species
   this.food = food
 
-  this.eat = function() {
+  this.eat = function () {
     return (
       this.name + ' is a ' + this.species + ' and likes to eat ' + this.food
     )
@@ -98,7 +111,7 @@ function Family(numParents, numKids, numPets) {
   this.numKids = numKids
   this.numPets = numPets
 
-  this.whatIsThis = function() {
+  this.whatIsThis = function () {
     return this
   }
 }
